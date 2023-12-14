@@ -1,41 +1,46 @@
 url: http://citrusdeer.com
-baseurl: /
 
 # Site settings
 title: Citrus Deer
-email: your-email@domain.com
+email: skylerr.curtis@gmail.com
 description: "A Specialized Services company"
 
+collections:
+  - portfolio
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
+- name: Skyler Curtis
+  pic: skyler
+  position: Security Researcher/Co-Founder
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+    - title: github
+      url: https://github.com/deadPix3l
 
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
+services:
+- name: Custom Development
+  icon: fa-code
+  description: developers skilled in 13+ languages counting
+- name: Penetration Testing
+  icon: fa-shield-halved
+  description: Physical or Digital, we'll get in!
+- name: Blockchain
+  icon: "fa-brands fa-ethereum"
+  description: develop dapps, new tokens, web3 gaming, etc
+- name: Cloud, DevOps, Infrastructure
+  icon: "fa-solid fa-cloud"
+  description: It's just someone elses computer
+- name: Data Science
+  icon: fa-flask
+  description: Crunching the numbers
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: github
     url: http://github.com/citrusdeer
 
+
 # Build settings
 markdown: kramdown
 permalink: pretty
+
